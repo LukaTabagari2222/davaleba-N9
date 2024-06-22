@@ -1,0 +1,210 @@
+.hederDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 96px;
+    padding: 17px 32px 17px 32px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: cadetblue;
+
+
+}
+
+
+.loGOsDiv {
+    display: flex;
+    width: 101px;
+    height: 27px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.brandHob {
+
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24.65px;
+    font-weight: 900;
+    line-height: 26.41px;
+    letter-spacing: -0.44023728370666504px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.FIrstSpan {
+    width: 14px;
+    height: 9px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 8.22px;
+    font-weight: 900;
+    line-height: 8.8px;
+    letter-spacing: -0.14674577116966248px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.linksFIve {
+    width: 328px;
+    height: 20px;
+    gap: 24px;
+    opacity: 0px;
+
+}
+
+.ertidaiGive {
+    width: 47px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: right;
+    color: rgba(0, 0, 0, 1);
+}
+
+.linksFIve {
+    display: flex;
+}
+
+.ActionDiv {
+    width: 100px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 32%;
+    opacity: 0px;
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+.aCTinwirte {
+    width: 52px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: rgba(243, 243, 243, 1);
+}
+
+.DIDIconteineri {
+    display: flex;
+    justify-content: center;
+    column-gap: 130px;
+    width: 1110px;
+    width: 90%;
+    background-color: aqua;
+    margin: auto;
+}
+
+@media only screen and (max-width:1024px){
+.DIDIconteineri{
+  flex-direction: column;
+}
+.right-block{
+    width: 100%;
+}
+.left-block{
+   max-width: 100%;
+}
+.mediun{
+   width: 100%;
+   
+}
+}
+
+.left-block {
+    width: 490px;
+    height: 288px;
+    background-color: aquamarine;
+    margin-top: 134px;
+
+}
+.right-block{
+    /* width: 490px; */
+    height: 428px;
+    margin-top: 64px;
+}
+#imagesFirst{
+width: 100%;
+}
+.mediun {
+    /* width: 490px; */
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.spatrtga {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 24px;
+}
+
+.backrgounda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    opacity: 0px;
+    background-color: black;
+}
+
+.ActyOn {
+    width: 52px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: rgba(243, 243, 243, 1);
+}
+
+.widTback {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 40px;
+}
+
+.person {
+    width: 236px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
