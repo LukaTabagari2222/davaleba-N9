@@ -210,6 +210,10 @@
     width: 100%;
 }
 
+.burger {
+    display: none;
+}
+
 @media only screen and (max-width: 1024px) {
     .big-Conteinner {
         flex-direction: column;
@@ -274,7 +278,7 @@
     }
 }
 
-@media only screen and (max-width: 744px) {
+@media only screen and (max-width: 375px) {
     .mediumi {
         width: 327px;
         font-family: Roboto;
@@ -282,33 +286,44 @@
         font-weight: 900;
         line-height: 48.5px;
         text-align: center;
-
     }
+
     .right-bloCK {
         width: 100%;
     }
-    .seoaraetdteg{
+
+    .seoaraetdteg {
         width: 280px;
     }
-    .person500{
+
+    .person500 {
         text-align: center;
         width: 300px;
 
     }
-    .imageRight{
+
+    .imageRight {
         width: 100%;
     }
-    .acTionS-Disfle{
+
+    .acTionS-Disfle {
         gap: 16px;
     }
-    .linksFIve{
+
+    .linksFIve {
         display: none;
     }
-    .ActionDiv{
+
+    .ActionDiv {
         display: none;
-        
+
+    }
+    .big-Conteinner{
+        margin: 0px;
     }
     .burger{
-        display:flex;
-     }
+        display: block;
+    }
+
+
 }
