@@ -133,7 +133,7 @@
 
 }
 
-.mediumi {
+.mediumiiiii {
     width: 490px;
     font-family: Roboto;
     font-size: 56px;
@@ -416,7 +416,7 @@
         width: 100%;
     }
 
-    .mediumi {
+    .mediumiiiii {
         width: 660px;
         text-align: center;
         align-items: center;
@@ -542,7 +542,7 @@
         margin: 0;
     }
 
-    .mediumi {
+    .mediumiiiii {
         width: 100%;
         font-family: Roboto;
         font-size: 40px;
@@ -663,7 +663,7 @@
 }
 
 @media only screen and (max-width: 375px) {
-    .mediumi {
+    .mediumiiii {
         width: 327px;
         font-family: Roboto;
         font-size: 40px;
@@ -856,7 +856,7 @@
         width: 100%;
     }
 
-    .mediumi {
+    .mediumiiiii {
         width: 257px;
         font-family: Roboto;
         font-size: 21px;
@@ -899,21 +899,6 @@
 
     .foogterDIv {
         display: none;
-    }
-    .burger{
-      display: none;
-    }
-    .loGOsDiv{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .mediumi{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 
 }
