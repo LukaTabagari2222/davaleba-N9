@@ -901,5 +901,20 @@
     .foogterDIv {
         display: none;
     }
+    .burger{
+        display: none;
+    }
+    .loGOsDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mediumi{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
 }
