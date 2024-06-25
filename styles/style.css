@@ -28,8 +28,6 @@
     font-size: 24.65px;
     font-weight: 900;
     line-height: 26.41px;
-    letter-spacing: -0.44023728370666504px;
-    text-align: left;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -42,8 +40,6 @@
     font-size: 8.22px;
     font-weight: 900;
     line-height: 8.8px;
-    letter-spacing: -0.14674577116966248px;
-    text-align: left;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -64,8 +60,6 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 19.36px;
-    letter-spacing: 0.10000000149011612px;
-    text-align: right;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -93,7 +87,6 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0.10000000149011612px;
     text-align: center;
     color: rgba(243, 243, 243, 1);
 }
@@ -259,7 +252,7 @@
     width: 100%;
     margin: auto;
     background-color: black;
-    padding:100px;
+    padding: 100px;
 
 
 }
@@ -347,7 +340,7 @@
     color: aliceblue;
 }
 
-.amatiDoiv{
+.amatiDoiv {
     display: flex;
     gap: 141px;
 }
@@ -379,28 +372,32 @@
     margin-top: 16px;
 }
 
-.secondayu{
+.secondayu {
     font-family: Inter;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-color: rgba(255, 255, 255, 1);
-}
-.ptegFOooter{
-    font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-color: rgba(255, 255, 255, 1);
-margin-top: 8px;
-
-}
-.joinOyr{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
     color: rgba(255, 255, 255, 1);
 }
-.diavdavbar{
+
+.ptegFOooter {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 8px;
+
+}
+
+.joinOyr {
+    color: rgba(255, 255, 255, 1);
+}
+
+.diavdavbar {
     display: flex;
 }
+
 /* aqamdee */
 @media only screen and (max-width: 1024px) {
     .big-Conteinner {
@@ -506,28 +503,33 @@ margin-top: 8px;
 
 
 
-    
-    .foogterDIv{
+
+    .foogterDIv {
         width: 100%;
     }
-    .footersecon-Div{
+
+    .footersecon-Div {
         display: flex;
         width: 100%;
-        
+
     }
-    .diavdavbar{
+
+    .diavdavbar {
         display: flex;
-        margin-top:70px;
+        margin-top: 70px;
     }
-    .amatiDoiv{
+
+    .amatiDoiv {
         display: flex;
         flex-direction: column;
         gap: 48px;
     }
-    .askhnck{
+
+    .askhnck {
         display: flex;
     }
-    .gaqreba{
+
+    .gaqreba {
         display: none;
     }
 }
@@ -626,31 +628,36 @@ margin-top: 8px;
     .meore-marcXenabloki {
         margin-top: 29px;
     }
-    
 
 
-    
-    .foogterDIv{
+
+
+    .foogterDIv {
         width: 100%;
     }
-    .footersecon-Div{
+
+    .footersecon-Div {
         display: flex;
         width: 100%;
-        
+
     }
-    .diavdavbar{
+
+    .diavdavbar {
         display: flex;
-        margin-top:45px;
+        margin-top: 45px;
     }
-    .amatiDoiv{
+
+    .amatiDoiv {
         display: flex;
         flex-direction: column;
-        gap:14px;
+        gap: 14px;
     }
-    .askhnck{
+
+    .askhnck {
         display: flex;
     }
-    .gaqreba{
+
+    .gaqreba {
         display: none;
     }
 
@@ -741,65 +748,80 @@ margin-top: 8px;
     }
 
 
-    
-    .foogterDIv{
+
+    .foogterDIv {
         width: 100%;
     }
-    .footersecon-Div{
+
+    .footersecon-Div {
         display: flex;
         width: 100%;
-        
+
     }
-    .diavdavbar{
+
+    .diavdavbar {
         display: flex;
-        margin-top:45px;
+        margin-top: 45px;
     }
-    .amatiDoiv{
+
+    .amatiDoiv {
         display: flex;
         flex-direction: column;
-        gap:14px;
+        gap: 14px;
     }
-    .askhnck{
+
+    .askhnck {
         display: flex;
     }
-    .gaqreba{
+
+    .gaqreba {
         display: none;
     }
-.fpyerFIrstsection{
-    width: 100%;
-}
-.footersecon-Div{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
 
-}
-.foogterDIv{
-    width: 100%;
-}
-.foterPteg{
-    width: 100%;
-}
-.marjvniv{
-    margin-left: 10px;
-}
-.ptegsDouycb{
-    width: 100%;
-}
-.meore{
-    width: 40px;
-}
-.loGOsDiv{
-   padding-left: 70px;
-}
-.pirvelia{
-    margin-top: 50px;
-    width: 40px;
-}
-.amatiDoiv{
-    gap:0px;
-}
+    .fpyerFIrstsection {
+        width: 100%;
+    }
+
+    .footersecon-Div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+
+    }
+
+    .foogterDIv {
+        width: 100%;
+    }
+
+    .foterPteg {
+        width: 100%;
+    }
+
+    .marjvniv {
+        margin-left: 10px;
+    }
+
+    .ptegsDouycb {
+        width: 100%;
+    }
+
+    .meore {
+        width: 40px;
+    }
+
+    .loGOsDiv {
+        padding-left: 70px;
+    }
+
+    .pirvelia {
+        margin-top: 50px;
+        width: 40px;
+    }
+
+    .amatiDoiv {
+        gap: 0px;
+    }
 
 }
 
@@ -875,8 +897,9 @@ margin-top: 8px;
     .meore-marcXenabloki {
         margin: 0;
     }
-.foogterDIv{
-    display: none;
-}
+
+    .foogterDIv {
+        display: none;
+    }
 
 }
