@@ -311,6 +311,7 @@
 .imgga {
     margin: auto;
     width: 100%;
+    display: block;
 }
 
 /* aqa,dede */
