@@ -72,8 +72,7 @@
     gap: 10px;
     border-radius: 32%;
     opacity: 0px;
-    backgroundkgroundkground-color: rgba(0, 0, 0, 1);
-
+ background-color: black;
 }
 
 .aCTinwirte {
@@ -133,7 +132,7 @@
 
 }
 
-.actions-backgroundkgroundkgroundkground {
+.actions-background {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +140,7 @@
     height: 48px;
     border-radius: 32px;
     opacity: 0px;
-    backgroundkgroundkgroundkground-color: rgba(0, 0, 0, 1);
+    background-color: black;
 }
 
 .acTioTeg {
@@ -210,7 +209,7 @@
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    backgroundkgroundkgroundkground-color: black;
+    background-color: black;
     font-weight: 600;
 }
 
@@ -291,16 +290,13 @@
 .imgga {
     margin: auto;
     width: 100%;
+    display: block;
 }
 
 /* aqa,dede */
 /* footer aqedan */
-.foogterDIv {
-    width: 100%;
+.footerDIv{
     background-color: black;
-    margin: auto;
-    padding: 100px;
-
 }
 
 .ffoter-BaRR {
@@ -834,6 +830,9 @@
         width: 100%;
 
     }
+    .burger{
+        display: block;
+    }
 } 
 
 @media only screen and (max-width: 200px) {
@@ -901,6 +900,7 @@
     .mereDivis-mepTeg {
         width: 100%;
     }
+
 
 }
 
