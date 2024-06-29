@@ -90,34 +90,8 @@
 }
 
 
-/* navigeishen media */
-@media only screen and (max-width:1024px) {
-    .hederDiv {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
 
-    }
-}
 
-@media only screen and (max-width:744px) {
-    .hederDiv {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-
-    }
-
-}
-
-@media only screen and (max-width:320) {
-    .hederDiv {
-        display: none;
-        justify-content: space-between;
-        width: 100%;
-
-    }
-}
 
 /* aqamdeee */
 .big-Conteinner {
@@ -326,7 +300,7 @@
     display: flex;
     justify-content: center;
     background-color: black;
-    height: 330px;
+    /* height: 330px; */
 
 
 }
@@ -334,10 +308,16 @@
 .ffoter-BaRR {
     display: flex;
     justify-content: space-between;
-    width: 1140px;
+    max-width: 1140px;
+    width: 90%;
+    margin: 0 auto;
     background-color: rgb(73, 113, 148);
 
 
+}
+.adnda{
+    display: flex;
+   gap: 120px;
 }
 
 .breNadn2 {
@@ -362,11 +342,6 @@
     display: flex;
 
 }
-
-
-
-
-
 
 .seconda {
     font-family: Inter;
@@ -451,7 +426,13 @@
     .big-Conteinner {
         flex-direction: column;
     }
+    .hederDiv {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
 
+    }
+    
     .left-conteiner {
         display: flex;
         justify-content: center;
@@ -582,11 +563,12 @@
     }
 
     .ffoter-BaRR {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 120PX;
-        width: 100%;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: flex-start; */
+        /* gap: 120px; */
+        /* width: 100%; */
+        flex-direction: column;
 
 
     }
@@ -630,7 +612,19 @@
     .seoaraetdteg {
         width: 100%;
     }
+    .linksFIve{
+        display: none;
+    }
 
+    .hederDiv {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+    .adnda {
+        gap: 50px;
+    }
 
     .sectionN2 {
         flex-direction: column;
@@ -686,7 +680,7 @@
         width: 100%;
 
     }
-
+  
     .pTegsDIv {
         display: flex;
         align-items: center;
@@ -696,24 +690,20 @@
         margin-top: 29px;
     }
 
-    .ffoter-BaRR {
+    /* .ffoter-BaRR {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        gap: 624px;
         width: 100%;
 
 
-    }
+    } */
 
     .brenDTcals {
         flex-direction: column;
         gap: 25px;
 
     }
-
-
-
 
 }
 
@@ -815,20 +805,17 @@
     }
 
     .ffoter-BaRR {
-        display: flex;
-        flex-direction: column;
+        
         gap: 14px;
-        width: 100%;
+        text-align: center;
+        align-items: center;
     }
 
     .adnda {
         display: flex;
-        gap: 31px;
+        gap: 30px;
     }
-
-
-
-
+ 
 
 }
 
@@ -858,6 +845,14 @@
 }
 
 
+@media only screen and (max-width:320) {
+    .hederDiv {
+        display: none;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+} 
 
 @media only screen and (max-width: 200px) {
     .burger {
@@ -929,3 +924,8 @@
 
 
 }
+
+
+
+
+
