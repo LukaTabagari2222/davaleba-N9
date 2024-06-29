@@ -72,7 +72,7 @@
     gap: 10px;
     border-radius: 32%;
     opacity: 0px;
-    background-color: rgba(0, 0, 0, 1);
+    backgroundkgroundkground-color: rgba(0, 0, 0, 1);
 
 }
 
@@ -133,7 +133,7 @@
 
 }
 
-.actions-background {
+.actions-backgroundkgroundkgroundkground {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +141,7 @@
     height: 48px;
     border-radius: 32px;
     opacity: 0px;
-    background-color: rgba(0, 0, 0, 1);
+    backgroundkgroundkgroundkground-color: rgba(0, 0, 0, 1);
 }
 
 .acTioTeg {
@@ -210,7 +210,7 @@
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background-color: black;
+    backgroundkgroundkgroundkground-color: black;
     font-weight: 600;
 }
 
@@ -232,7 +232,8 @@
 .meSameDidiDivi {
     display: flex;
     justify-content: center;
-    /* width: 100%; */
+    width: 100%;
+    margin: auto;
     background-color: black;
     padding: 100px;
 
@@ -290,18 +291,15 @@
 .imgga {
     margin: auto;
     width: 100%;
-    display: block;
 }
 
 /* aqa,dede */
 /* footer aqedan */
-
-.footerDIv {
-    display: flex;
-    justify-content: center;
+.foogterDIv {
+    width: 100%;
     background-color: black;
-    /* height: 330px; */
-
+    margin: auto;
+    padding: 100px;
 
 }
 
